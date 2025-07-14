@@ -981,8 +981,8 @@ textarea.form-control {
     }
 
     .cvbtn {
-        font-size: 15px;
-        padding: 10px;
+        font-size: 10px;
+        padding: 5px;
         display: inline;
         text-wrap: nowrap;
 
@@ -1016,7 +1016,7 @@ textarea.form-control {
         display: flex;
         flex-direction: column;
         position: fixed;
-        top: 100px;
+        top: 130px;
         left: 0;
 
         border-radius: 0 50px 50px 0;
