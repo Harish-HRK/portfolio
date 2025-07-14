@@ -243,7 +243,7 @@ span.nowrap {
     text-align: center;
     position: relative;
     z-index: 2;
-    
+
 }
 
 .hero-content h1 {
@@ -285,7 +285,7 @@ span.nowrap {
     box-shadow: 0 20px 50px rgba(4, 10, 19, 0.541);
     margin-top: 100px;
     animation: float 6s ease-in-out infinite;
-      
+
 }
 
 .hero-buttons {
@@ -435,11 +435,11 @@ span.nowrap {
 }
 
 
-.social-links-about{
+.social-links-about {
     display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  margin-top: 1.5rem;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
 }
 
 .social-links-about a {
@@ -832,37 +832,40 @@ textarea.form-control {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     opacity: 0.7;
     font-size: 0.9rem;
-}  
+}
 
 
 
-       
+
 
 
 
 /* Animations */
-      @keyframes fadeInUp {
-        from {
-          opacity: 0;
-          transform: translateY(30px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
 
-      @keyframes float {
-        0% {
-          transform: translateY(0px);
-        }
-        50% {
-          transform: translateY(-20px);
-        }
-        100% {
-          transform: translateY(0px);
-        }
-      }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
 
 
 
@@ -988,7 +991,7 @@ textarea.form-control {
 
     .nav-container span {
         font-size: 25px;
-        margin-right: 30px;
+        margin-right: 20px;
         position: relative;
         right: 5px;
 
@@ -998,7 +1001,7 @@ textarea.form-control {
     .nav-container .logo-img {
         position: absolute;
 
-        left: 15px;
+        left: 10px;
 
 
     }
@@ -1013,7 +1016,7 @@ textarea.form-control {
         display: flex;
         flex-direction: column;
         position: fixed;
-        top: 400px;
+        top: 100px;
         left: 0;
 
         border-radius: 0 50px 50px 0;
@@ -1023,7 +1026,5 @@ textarea.form-control {
         -webkit-backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.2);
 
- }
+    }
 }
-
-
